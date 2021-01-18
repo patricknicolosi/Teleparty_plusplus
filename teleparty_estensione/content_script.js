@@ -1830,7 +1830,7 @@ var injectContentScript = function (defaultServerOptions = optionsConfig, server
 
       <div id="myDiv">
          <div id="myDivheader"><br></div>
-        <iframe src="https://meet.jit.si/" title="W3Schools Free Online Web Tutorials" style="width:280px;   height:300px" allow="camera;microphone"></iframe>
+        <iframe src="https://meet.jit.si/" title="W3Schools Free Online Web Tutorials" style="width:280px;   height:300px" allow="camera; microphone"></iframe>
      </div>
 
 
