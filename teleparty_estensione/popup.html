@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>NP&#43;</title>
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="popup.css">
+    <script type="text/javascript" src="jquery.js"></script>
+    <script type="text/javascript" src="popup.js"></script>
+  </head>
+  <body style="background-color: black;">
+    <div class="no-error" >
+      <div class="disconnected">
+        <h2 style="color:white">Crea una stanza</h2>
+     
+        <p>
+          <button id="create-session" type="button" style="background-color:red">Clicca e crea una stanza</button>
+        </p>
+
+      
+      </div>
+      <div class="loading hidden">
+        <i class="spinner fa fa-circle-o-notch fa-spin"></i>
+      </div>  
+      <div class="connected hidden">
+        <input id="share-url" type="text" readonly="true" autocomplete="off" autofocus />
+        <p class="copy-val">
+          <small><a href="#" id="copy-btn" style="color:white">Copia URL</a></small>
+        </p>
+      
+        <p>
+          <button id="leave-session" type="button" style="background-color:red">Disconnettiti</button>
+        </p>
+
+       
+      </div>
+    </div>
+    <div class="some-error hidden">
+      <p id="error-msg" class="error"></p>
+      <p><button id="close-error" type="button">Annulla</button></p>
+    </div>
+  </body>
+</html>
