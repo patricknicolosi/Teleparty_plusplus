@@ -9,7 +9,7 @@ effettuare videochiamate con JitsiMeet.
 <ul>
 <li>✅ Modificata interfaccia</li>
 <li>✅ Traduzione italiano</li>
-<li>✅(BETA) Finestra draggable con possibilità di effettuare videochiamate in contemporanea alla visione del film e alla chat. La finestra ha un iframe che integra JitsiMeet nella versione Web.</li>
+<li>✅(BETA) Finestra draggable con possibilità di effettuare videochiamate in contemporanea alla visione del film e alla chat. La finestra ha un iframe che integra JitsiMeet nella versione Web. La finestra viene resa visibile o invisibile attraverso un pulasente apposito</li>
 <li>❌ Rimosso sistema QR Code</li>
 </ul>
 
