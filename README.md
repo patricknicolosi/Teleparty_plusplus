@@ -9,7 +9,8 @@ effettuare videochiamate con JitsiMeet.
 <ul>
 <li>✅ Modificata interfaccia</li>
 <li>✅ Traduzione italiano</li>
-<li>✅(BETA) Finestra draggable con possibilità di effettuare videochiamate in contemporanea alla visione del film e alla chat. La finestra ha un iframe che integra JitsiMeet nella versione Web. La finestra viene resa visibile o invisibile attraverso un pulasente apposito</li>
+<li>✅(BETA) Finestra draggable con possibilità di effettuare videochiamate in contemporanea alla visione del film e alla chat. La finestra ha un iframe che integra JitsiMeet nella versione Web. La finestra viene resa visibile o invisibile attraverso un pulasente apposito. La finestra è regolabile in altezza e larghezza tramite due pulsanti.(Per un corretto funzionamento di jitsiMeet è necessario fornire autorizzazione di accesso alla webcam e microfono)</li>
+  <li>👨‍💻(IN ARRIVO) Miglioramenti interfaccia e finestra draggable</li>
 <li>❌ Rimosso sistema QR Code</li>
 </ul>
 
@@ -23,6 +24,7 @@ A questo punto, trascinare semplicemente la cartella scaricata nella lista delle
 <li>✅ Porting Android</li>
 <li>✅ Aggiornato agli ultimi pacchetti</li>
 <li>✅ Videochiamate con JitsiMeet</li>
+<li>👨‍💻(IN ARRIVO) Sostituzione SplashScreen</li>
 <li>❌ Rimossa SeekBar</li>
 <li>❌ Rimosso sistema QR Code</li>
 <li>⚠️ L'applicazione non supporta lo streaming del video ma è solo un sistema remoto per la connessione con l'estensione Chrome per la chat, comandi del video e videochiamate. Da considerarsi come un'estensione dell'estesione!</li>
