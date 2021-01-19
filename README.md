@@ -32,7 +32,7 @@ A questo punto, trascinare semplicemente la cartella scaricata nella lista delle
 
 <hr>
 <small>Il sistema QR Code e la SeekBar sono state rimosse a causa del loro non buon funzionamento</small><br><br>
-<small>Applicazione e estensione sono un progetto non impegnato e assolutamente sviluppato a scopo personale, inoltre non si intendono al momento aggiungere altre funzionalità, il progetto proseguirà solo con fix di eventuali bug, è per cui al momento da considerarsi concluso ma migliorabile.</small> <br>
+<small>Applicazione e estensione sono un progetto non impegnato e assolutamente sviluppato a scopo personale, inoltre non si intendono al momento aggiungere altre funzionalità, il progetto proseguirà solo con fix di eventuali bug, è per cui al momento da considerarsi concluso ma migliorabile.</small> <br><br>
 
 Estensione ufficiale Teleparty https://www.netflixparty.com/. <br>
 Estensione modificata e applicazione IOS su cui si basa il progetto https://github.com/david-shortman/netflix-party-plus.<br>
