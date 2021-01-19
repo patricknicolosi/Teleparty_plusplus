@@ -1737,7 +1737,7 @@ var injectContentScript = function (defaultServerOptions = optionsConfig, server
         #myDivheader {
           cursor: move;
           z-index: 99999999999;
-          background-color: black;
+          background-color: #191919;
         }
 
         .mystyle {
@@ -1756,6 +1756,17 @@ var injectContentScript = function (defaultServerOptions = optionsConfig, server
           text-decoration: none;
         }
 
+        .button991 {
+          background-color: #232323; /* Green */
+          border-radius:100%;
+          border: none;
+          color: white;
+          text-align: center;
+          text-decoration: none;
+          font-weight: bold;
+          font-size: 15px
+        }
+
       </style>
       <script>
       document.getElementById("bottone").onclick = function() {myFunction()};
@@ -1763,12 +1774,47 @@ var injectContentScript = function (defaultServerOptions = optionsConfig, server
       function myFunction() {
         if( document.getElementById("myDiv").style.visibility=="hidden"){
           document.getElementById("myDiv").style.visibility="visible";
+          document.getElementById("myIframe").style.width="300px";
+          document.getElementById("myIframe").style.height="300px";
+
         }else{
           document.getElementById("myDiv").style.visibility="hidden";
         }
       }
-      
     </script>
+    <script>
+    var content = document.getElementById("myIframe");
+    var btn = document.getElementById("bottone1");
+    btn.addEventListener("click", function() {
+    var width1 = content.offsetWidth
+    content.style.width= (width1+20)+"px";
+    });
+    </script>
+    <script>
+    var content = document.getElementById("myIframe");
+    var btn = document.getElementById("bottone2");
+    btn.addEventListener("click", function() {
+    var width1 = content.offsetWidth
+    content.style.width= (width1-20)+"px";
+    });
+    </script>
+    <script>
+    var content = document.getElementById("myIframe");
+    var btn = document.getElementById("bottone3");
+    btn.addEventListener("click", function() {
+    var width1 = content.offsetHeight
+    content.style.height= (width1+20)+"px";
+    });
+    </script>
+    <script>
+    var content = document.getElementById("myIframe");
+    var btn = document.getElementById("bottone4");
+    btn.addEventListener("click", function() {
+    var width1 = content.offsetHeight
+    content.style.height= (width1-20)+"px";
+    });
+    </script>
+
     
       <script>
       //Make the DIV element draggagle:
@@ -1829,8 +1875,18 @@ var injectContentScript = function (defaultServerOptions = optionsConfig, server
 
 
       <div id="myDiv">
-         <div id="myDivheader"><br></div>
-        <iframe src="https://meet.jit.si/" title="W3Schools Free Online Web Tutorials" style="width:280px;   height:300px" allow="camera; microphone"></iframe>
+         <div id="myDivheader"><br>
+         
+         <img src='https://tocompute.altervista.org/width.png' width="20px" style="margin-right:5px">
+         <input type="button" class="button991" id="bottone1" value="+" >
+         <input type="button" class="button991" id="bottone2" value="-" style="margin-right:20px">
+         <img src='https://tocompute.altervista.org/height.png' width="20px">
+         <input type="button" class="button991" id="bottone3" value="+">
+         <input type="button" class="button991" id="bottone4" value="-">
+         
+         <br><br>
+         </div>
+        <iframe src="https://meet.jit.si/"  id="myIframe"  style="width:100%" allow="camera; microphone"></iframe>
      </div>
 
 
